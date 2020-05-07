@@ -1,0 +1,47 @@
+{
+  "name": "property-based-testing-for-js-devs",
+  "version": "1.0.0",
+  "description": "Resources for writing your first property-based test in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "globals": {
+      "ts-jest": {
+        "tsConfig": "tsconfig.json"
+      }
+    },
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "testMatch": [
+      "**/specs/*.+(ts|tsx|js)"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meeshkan/property-based-testing-for-js-devs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meeshkan/property-based-testing-for-js-devs/issues"
+  },
+  "homepage": "https://github.com/meeshkan/property-based-testing-for-js-devs#readme",
+  "dependencies": {
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "fast-check": "^1.24.2",
+    "jest": "^26.0.1",
+    "ts-jest": "^25.5.0"
+  }
+}
