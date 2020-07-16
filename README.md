@@ -8,7 +8,7 @@ Most of the tests are written with [fast-check](https://dubzzz.github.io/fast-ch
 
 If you run into problems or have any questions, please [open an issue](https://github.com/meeshkan/property-based-testing-for-js-devs/issues/new) or [reach out to us on Gitter](https://gitter.im/meeshkan/community).
 
-🐍 Prefer Python? This same guide is available to help you learn [property-based testing in Python](https://meeshkan.com/blog/property-based-testing-python/) instead.
+🐍 Prefer Python? A similar guide is available to help you learn [property-based testing in Python](https://meeshkan.com/blog/property-based-testing-python/) instead.
 
 ## What's in this document
 
