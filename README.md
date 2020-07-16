@@ -4,7 +4,7 @@
 
 This repository contains the source code for our article: [Property-based testing for JavaScript developers](https://meeshkan.com/blog/property-based-testing-javascript/).
 
-Most of the tests are written with [fast-check](https://dubzzz.github.io/fast-check/), a JavaScript library for generative test cases.
+Most of the tests are written with [fast-check](https://dubzzz.github.io/fast-check/), a JavaScript framework for generative test cases.
 
 If you run into problems or have any questions, please [open an issue](https://github.com/meeshkan/property-based-testing-for-js-devs/issues/new) or [reach out to us on Gitter](https://gitter.im/meeshkan/community).
 
@@ -13,7 +13,7 @@ If you run into problems or have any questions, please [open an issue](https://g
 ## What's in this document
 
 - [Running the tests](#running-the-tests)
-- [Available libraries](#available-libraries)
+- [Available frameworks and libraries](#available-frameworks-and-libraries)
   - [JavaScript](#javascript)
   - [Other languages](#other-languages)
 - [Additional resources](#additional-resources)
@@ -57,7 +57,7 @@ yarn test
 
 > For this example, the test suite consists of [Jest](https://github.com/facebook/jest) and [fast-check](https://github.com/dubzzz/fast-check/).
 
-## Available libraries
+## Available frameworks and libraries
 
 ### JavaScript
 
