@@ -107,6 +107,8 @@ Here are some ways you can get in touch:
 
 Some future article ideas:
 
+- Shrinking
+- Replaying tests and reproducing failures
 - Writing property-based tests with TypeScript
 - Our favorite fast-check features for JavaScript testing
 - Something else? Let us know!
