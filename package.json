@@ -8,9 +8,9 @@
   },
   "jest": {
     "moduleFileExtensions": [
+      "js",
       "ts",
-      "tsx",
-      "js"
+      "tsx"
     ],
     "globals": {
       "ts-jest": {
@@ -21,14 +21,15 @@
       "^.+\\.(ts|tsx)$": "ts-jest"
     },
     "testMatch": [
-      "**/specs/*.+(ts|tsx|js)"
-    ]
+      "**/tests/*.+(ts|tsx|js)"
+    ],
+    "verbose": true
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/meeshkan/property-based-testing-for-js-devs.git"
   },
-  "author": "",
+  "author": "Meeshkan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/meeshkan/property-based-testing-for-js-devs/issues"

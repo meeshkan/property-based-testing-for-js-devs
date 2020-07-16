@@ -1,7 +1,14 @@
-import * as fc from 'fast-check';
-import { sort } from '../src/sort';
+/*
+A TypeScript spec for a custom sort function from the fast-check documentation.
+Copied here for experimentation and a potential future TypeScript article... 😏
 
-test('should contain the same items', () => {
+Does that sound interesting to you? Let us know!
+*/
+
+import * as fc from "fast-check";
+import { sort } from "../src/sort";
+
+test("should contain the same items", () => {
   const count = (tab, element) => tab.filter(v => v === element).length;
   fc.assert(
     fc.property(fc.array(fc.integer()), data => {
@@ -14,7 +21,7 @@ test('should contain the same items', () => {
   );
 });
 
-test('should produce ordered array', () => {
+test("should produce ordered array", () => {
   fc.assert(
     fc.property(fc.array(fc.integer()), data => {
       const sorted = sort(data);
