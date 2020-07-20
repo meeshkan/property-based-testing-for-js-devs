@@ -1,4 +1,3 @@
-import { getNumber } from "../src/getNumber";
 const fc = require("fast-check");
 
 // Function that turns a string into a number using JavaScript's built-in Number()
@@ -30,3 +29,9 @@ test("also turns an input string into a number", () => {
     })
   );
 });
+
+console.log(
+  // When logged, fc.sample() displays an array that contains the values
+  // that would be generated in a test with this arbitrary
+  fc.sample(fc.float(), 10)
+);
