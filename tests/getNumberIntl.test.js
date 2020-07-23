@@ -8,6 +8,7 @@ const getNumber = inputString => {
 
 // Failing example-based test
 test("turns an input string into a number", () => {
+  expect(getNumber("59.99")).toBe(59.99);
   // Uncomment the following line to see the failing test case:
   //   expect(getNumber("19,95")).toBe(19.95);
 });
